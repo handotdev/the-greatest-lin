@@ -1,0 +1,41 @@
+div.enemyShip {
+	position: absolute;
+	overflow: hidden;
+	height: 40px;
+	width: 40px;
+	left: 0px;
+	top: -40px;
+	background-size: contain;
+}
+div.enemyShip.nivi {
+	background-image: url(../gfx/nivi.png);
+}
+div.enemyShip.rushi {
+	background-image: url(../gfx/rushi.png);
+}
+div.enemyShip.jenniviv {
+	background-image: url(../gfx/jenniviv.png);
+}
+div.enemyShip.matt {
+	background-image: url(../gfx/matt.png);
+}
+div.enemyShip.hann {
+	background-image: url(../gfx/hann.png);
+}
+div.enemyShip.boss {
+	background-image: url(../gfx/anjali.png);
+}
+div.enemyShip.ufo {
+	width: 80px;
+	height: 38px;
+	background-image: url(../gfx/enemy-ufo.png);
+}
+div.enemyBomb {
+	position: absolute;
+	overflow: hidden;
+	height: 16px;
+	width: 10px;
+	left: 0px;
+	top: -16px;
+	background-image: url(../gfx/enemy-bomb.png);
+}
